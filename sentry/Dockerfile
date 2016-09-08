@@ -16,7 +16,8 @@ RUN pip install \
     # Redis
     redis \
     hiredis \
-    nydus
+    nydus \
+    python-social-auth    
 
 # Sentry
 ENV SENTRY_VERSION 7.7.4
